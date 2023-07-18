@@ -1,6 +1,23 @@
-public struct CalculatorLibrary {
-    public private(set) var text = "Hello, World!"
+import Foundation
 
-    public init() {
+public class Calculator {
+    
+    public init() {}
+    
+    public func add(valueA: Int, valueB: Int) -> Int {
+        return valueA + valueB
     }
+    
+    public func subtract(valueA: Int, valueB: Int) -> Int {
+        return valueA - valueB
+    }
+    
+    public func multiply(valueA: Int, valueB: Int) -> Int {
+        return valueA * valueB
+    }
+    
+    public func divide(valueToDivide: Int, divisor: Int) -> Int {
+        return valueToDivide / divisor
+    }
+    
 }
