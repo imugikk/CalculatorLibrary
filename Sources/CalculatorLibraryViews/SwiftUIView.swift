@@ -1,10 +1,3 @@
-//
-//  SwiftUIView.swift
-//  
-//
-//  Created by Paraptughessa Premaswari on 18/07/23.
-//
-
 import SwiftUI
 
 public struct SwiftUIView: View {
@@ -16,8 +9,8 @@ public struct SwiftUIView: View {
     }
 }
 
-stru@available(macOS 10.15, *)
-ct SwiftUIView_Previews: PreviewProvider {
+struct SwiftUIView_Previews: PreviewProvider {
+    @available(macOS 10.15, *)
     @available(iOS 13.0, *)
     static var previews: some View {
         SwiftUIView()
